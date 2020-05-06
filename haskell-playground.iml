@@ -18,5 +18,7 @@
     <orderEntry type="library" name="transformers-0.5.6.2" level="project" />
     <orderEntry type="library" name="array-0.5.4.0" level="project" />
     <orderEntry type="library" name="deepseq-1.4.4.0" level="project" />
+    <orderEntry type="library" name="HUnit-1.6.0.0" level="project" />
+    <orderEntry type="library" name="call-stack-0.2.0" level="project" />
   </component>
 </module>

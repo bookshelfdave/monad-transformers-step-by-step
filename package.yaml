@@ -1,7 +1,7 @@
 name:                monad-transformers-step-by-step
 version:             0.1.0.0
 github:              "metadave/monad-transformers-step-by-step"
-license:             Apache2
+license:             Apache-2.0
 author:              "Dave Parfitt"
 maintainer:          "metadave@protonmail.com"
 copyright:           "2020 Dave Parfitt"
@@ -23,6 +23,7 @@ dependencies:
 - base >= 4.7 && < 5
 - containers
 - mtl
+- HUnit
 
 library:
   source-dirs: src
@@ -35,16 +36,19 @@ executables:
     - -threaded
     - -rtsopts
     - -with-rtsopts=-N
+    - -Wall
     dependencies:
     - monad-transformers-step-by-step
 
 tests:
   monad-transformers-step-by-step-test:
-    main:                Spec.hs
+    main:                HUnitTests.hs
     source-dirs:         test
     ghc-options:
     - -threaded
     - -rtsopts
     - -with-rtsopts=-N
+    - -Wall
     dependencies:
     - monad-transformers-step-by-step
+    - HUnit
