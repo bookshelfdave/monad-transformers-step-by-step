@@ -50,7 +50,7 @@ Without the `MonadFail` instance above, you'll get compilation errors like this:
 
 # Building
 
-```
+```bash
 git clone https://github.com/metadave/monad-transformers-step-by-step.git
 cd monad-transformers-step-by-step
 stack test
@@ -60,7 +60,7 @@ stack ghci
 
 ## Interactive Examples
 
-```
+```bash
 stack ghci
 
 import qualified Data.Map as Map
