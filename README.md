@@ -1,7 +1,7 @@
 # Monad Transformers Step by Step
 
 Haskell source for the paper 
-[Monad Transformers Step by Step](https://page.mi.fu-berlin.de/scravy/realworldhaskell/materialien/monad-transformers-step-by-step.pdf) by Martin Grabmüller, tweaked to work in 2020 and built using [Stack](https://docs.haskellstack.org/en/stable/README/).
+[Monad Transformers Step by Step](https://github.com/mgrabmueller/TransformersStepByStep/blob/master/pdf/Transformers.pdf) by Martin Grabmüller, tweaked to work in 2020 and built using [Stack](https://docs.haskellstack.org/en/stable/README/).
 
 
 ## How this repo is organized
